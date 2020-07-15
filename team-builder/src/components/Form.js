@@ -17,6 +17,7 @@ function Form(props){
     props.setMember([...props.member, { name, email, role}])  
     } 
    }
+   //Inputs below
    return(
        <div className="form">
        <form onSubmit={handleSubmit}>
